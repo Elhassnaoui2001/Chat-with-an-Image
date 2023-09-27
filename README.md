@@ -1,4 +1,4 @@
-# Ask Question to Image Web App with Streamlit and LangChain
+# Chat-with-an-Image
 
 ![Interface](Test.png)
 
