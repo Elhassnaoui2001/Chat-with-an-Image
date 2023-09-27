@@ -9,10 +9,44 @@ This is a Streamlit application that allows users to ask questions about an uplo
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
    ```shell
    git clone https://github.com/Elhassnaoui2001/Chat-with-an-Image.git
+
+2. **Change to the project directory:**
+
+    ```shell
+    cd Chat-with-an-Image
+    ```
+
+3. **Install the required dependencies:**
+
+    ```shell
+    pip install -r requirements.txt
+    ```
+
+4. **Obtain an OpenAI API key:**
+
+   You can sign up for an API key at [OpenAI](https://openai.com).
+
+5. **Replace the placeholder API key in the `main.py` file with your actual OpenAI API key:**
+
+    ```python
+    llm = ChatOpenAI(
+        openai_api_key='YOUR_API_KEY',
+        temperature=0,
+        model_name="gpt-3.5-turbo"
+    )
+    ```
+
+6. **Run the Streamlit application:**
+
+    ```shell
+    streamlit run main.py
+    ```
+
+7. **Open your web browser and go to [http://localhost:8501](http://localhost:8501) to access the application.**
 
 
 ## Usage
